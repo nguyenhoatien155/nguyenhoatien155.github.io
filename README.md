@@ -1,4 +1,4 @@
-# Why 55?
+# Why [55](/)?
 
 I do not know. The domain was cheap.
 
