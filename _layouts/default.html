@@ -2,7 +2,9 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% seo %}
+{% if seo_tag.title? %}
+  <title>{{ seo_tag.title }}</title>
+{% endif %}
 <style>
 *, *::before, *::after { box-sizing: border-box; font-weight: 400; }
 body { max-width: 34rem; margin: 0 auto; padding: 0.5rem; font-family: sans-serif; color: #999; }
